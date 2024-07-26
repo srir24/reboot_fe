@@ -1,0 +1,188 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #006a4d;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+input, select {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+h1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container input label {
+  margin: 10px 0; /* Adds some spacing between the inputs */
+}
+
+img {
+  width: 80vw;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  align-items: center;
+}
+nav{
+  text-align: center;
+}
+
+/* Forms */
+form {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 500px;
+  padding: 2rem;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="file"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 100%;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+input[type="text"],
+input[type="file"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 100%;
+}
+form div {
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #006a4d;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #004d3a;
+}
+
+button[type="button"] {
+  background-color: #ccc;
+}
+
+button[type="button"]:hover {
+  background-color: #bbb;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  margin: 2rem auto;
+  width: 90%;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: #006a4d;
+  color: white;
+}
+
+td button {
+  background-color: #007a5e;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+td button:hover {
+  background-color: #005c47;
+}
+
+/* Balance and Summary */
+h3 {
+  margin: 1rem 0;
+}
+/* Add styles for the trustee section */
+h3 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #006a4d;
+}
+
+/* Other existing styles remain unchanged */
+
+
+.balance, .summary {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 500px;
+  padding: 2rem;
+  text-align: center;
+}
